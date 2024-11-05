@@ -1,0 +1,571 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+:root {
+    --color-1: #F5F7FA;
+    --color-2: #4CAF4F;
+    --color-3: #263238;
+    --color-4: #ffffff;
+    --color-5: #18191F;
+    --color-6: #717171;
+    --color-7: #4D4D4D;
+    --color-8: #89939E;
+    --color-9: #D9DBE1;
+    --font-family-1: "Roboto", sans-serif;
+    --font-family-2: "Inter", sans-serif;
+    --font-family-3: "Poppins", sans-serif;
+}
+
+.nescent {
+    background-color: var(--color-1);
+    height: 10vh;
+}
+
+.logo img {
+    align-items: center;
+    margin-top: 25px;
+    width: 120px;
+}
+
+.nav-link {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.nav-link a {
+    color: var(--color-5);
+    margin-left: 39px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-link a:hover {
+    color: var(--color-2);
+}
+
+.login {
+    background-color: transparent;
+    border: transparent;
+    margin-top: 19px;
+    margin-left: 90px;
+    color: var(--color-2);
+}
+
+.sign {
+    margin-left: 20px;
+    background: var(--color-2);
+    color: var(--color-1);
+    border: transparent;
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+
+.insight {
+    background-color: var(--color-1);
+    height: 100vh;
+}
+
+.lesson {
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
+.lesson h1 {
+    font-family: var(--font-family-2);
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.lesson span {
+    font-family: var(--font-family-2);
+    font-weight: 600;
+    color: var(--color-2);
+    line-height: 76px;
+    font-size: 60px;
+}
+
+.lesson p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-family-2);
+    color: var(--color-6);
+    margin-left: 5px;
+}
+
+.lesson button {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--font-family-2);
+    margin-top: 10px;
+    padding: 10px 34px;
+    color: var(--color-1);
+    background-color: var(--color-2);
+    border: transparent;
+    border-radius: 4px;
+}
+
+.lesson-img {
+    margin-left: 40px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.client {
+    margin-top: 66px;
+    text-align: center;
+}
+
+.client h2 {
+    color: var(--color-7);
+    font-family: var(--font-family-2);
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.client p {
+    color: var(--color-6);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-family-2);
+}
+
+.client-icon {
+    margin-top: 40px;
+    margin-left: -80px;
+}
+
+.client-icon img {
+    margin-left: 110px;
+}
+
+.coummity {
+    margin-top: 76px;
+    text-align: center;
+}
+
+.coummity h3 {
+    color: var(--color-7);
+    font-family: var(--font-family-2);
+    font-weight: 600;
+    font-size: 36px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.coummity p {
+    font-family: var(--font-family-2);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-6);
+    line-height: 24px;
+}
+
+.coumit-icon {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.coumit-detail {
+    margin-top: 40px;
+    text-align: center;
+    border-bottom: 1px solid var(--color-1);
+}
+
+.coumit-detail h4 {
+    margin-top: 20px;
+    margin-right: 150px;
+    margin-left: 100px;
+    font-family: var(--font-family-2);
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.coumit-detail p {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 60px;
+    color: var(--color-6);
+    font-family: var(--font-family-2);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.nation h4 {
+    margin-right: 100px;
+    margin-left: 90px;
+}
+
+.group h4 {
+    margin-right: 100px;
+    margin-left: 90px;
+}
+
+.group p {
+    margin-top: 28px;
+}
+
+.unseen-img {
+    margin-top: 55px;
+}
+
+.unseen h3 {
+    margin-top: 88px;
+    font-family: var(--font-family-2);
+    font-weight: 600;
+    font-size: 36px;
+    margin-right: 60px;
+    color: var(--color-7);
+}
+
+.unseen p {
+    font-size: 14px;
+    font-family: var(--font-family-2);
+    font-weight: 400;
+    color: var(--color-6);
+    line-height: 20px;
+    margin-right: 40px;
+}
+
+.unseen button {
+    margin-top: 10px;
+    padding: 10px 32px;
+    background-color: var(--color-2);
+    color: var(--color-1);
+    border: transparent;
+    border-radius: 4px;
+    font-family: var(--font-family-2);
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.itself {
+    margin-top: 20px;
+    background: var(--color-1);
+    height: 50vh;
+}
+
+.local {
+    margin-top: 98px;
+    margin-left: 70px;
+}
+
+.local h4 {
+    font-size: 36px;
+    font-family: var(--font-family-2);
+    font-weight: 600;
+}
+
+.local span {
+    color: var(--color-2);
+}
+
+.local p {
+    font-family: var(--font-family-2);
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--color-5);
+}
+
+.local-icon {
+    margin-left: 60px;
+    margin-top: 90px;
+}
+
+.local-icon span {
+    font-family: var(--font-family-2);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 26px;
+    margin-left: 20px;
+    color: var(--color-7);
+}
+
+.local-icon h6 {
+    margin-top: -15px;
+    margin-left: 70px;
+    font-family: var(--font-family-2);
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--color-6);
+}
+
+.event {
+    margin-top: 50px;
+}
+
+.clubs {
+    margin-left: -30px;
+}
+
+.site-img {
+    margin-top: 50px;
+}
+
+.site {
+    margin-top: 110px;
+}
+
+.site h3 {
+    margin-right: 50px;
+    font-family: var(--font-family-2);
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--color-7);
+}
+
+.site p {
+    font-family: var(--font-family-2);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-6);
+    margin-top: 20px;
+}
+
+.site button {
+    margin-top: 20px;
+    padding: 10px 32px;
+    color: var(--color-1);
+    background: var(--color-2);
+    font-family: var(--font-family-2);
+    font-weight: 500;
+    font-size: 16px;
+    border: transparent;
+    border-radius: 4px;
+}
+
+.bg-color {
+    height: 59vh;
+}
+
+.custumer-img {
+    margin-top: 20px;
+}
+
+.customer p {
+    margin-top: 30px;
+    font-family: var(--font-family-2);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--color-6);
+}
+
+.customer h6 {
+    font-family: var(--font-family-2);
+    color: var(--color-2);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.customer span {
+    font-family: var(--font-family-2);
+    font-weight: 400;
+    font-size: 16px;
+    color: #89939E;
+}
+
+.customer-icon {
+    margin-left: -30px;
+}
+
+.customer-icon img {
+    width: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.meet {
+    margin-left: 40px;
+    margin-top: 28px;
+}
+
+.meet h6 {
+    font-family: var(--font-family-2);
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--color-2);
+}
+
+.caring {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.caring h4 {
+    font-family: var(--font-family-2);
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--color-7);
+    margin-top: 40px;
+}
+
+.caring p {
+    font-family: var(--font-family-2);
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    color: var(--color-6);
+    margin-left: 250px;
+    margin-right: 260px;
+}
+
+.stream-img {
+    position: relative;
+    margin-top: 40px;
+}
+
+.stream-img img {
+    position: absolute;
+}
+
+.stream-detail {
+    position: absolute;
+    margin-top: 180px;
+    border-radius: 10px;
+    margin-left: 25px;
+    z-index: 99;
+    width: 305px;
+    height: 176px;
+    background-color: var(--color-1);
+    box-shadow: 0px 8px 16px 0px #ABBED166;
+}
+
+.stream-detail h6 {
+    padding-top: 30px;
+    font-family: var(--font-family-2);
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--color-6);
+    text-align: center;
+}
+
+.stream-detail p {
+    font-family: var(--font-family-2);
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--color-2);
+    text-align: center;
+    padding-top: 15px;
+}
+
+.libero-color {
+    margin-top: 430px;
+    height: 55vh;
+    background-color: var(--color-1);
+}
+
+.libero h3 {
+    margin-left: 150px;
+    padding-top: 50px;
+    margin-right: 220px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 64px;
+    font-family: var(--font-family-2);
+    color: var(--color-3);
+}
+
+.libero button {
+    margin-top: 50px;
+    margin-left: 450px;
+    text-align: center;
+    padding: 10px 32px;
+    background: var(--color-2);
+    color: var(--color-1);
+    font-family: var(--font-family-2);
+    font-weight: 600;
+    font-size: 16px;
+    border: transparent;
+    border-radius: 4px;
+}
+
+.big-color {
+    height: 50vh;
+    background-color: var(--color-3);
+}
+
+.nexcent-img {
+    margin: 40px 40px;
+}
+
+.nexcent-img p {
+    font-family: var(--font-family-2);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 80px;
+    color: var(--color-1);
+}
+
+.right {
+    margin-top: -65px;
+}
+
+.logo i {
+    color: var(--color-1);
+    opacity: 65%;
+    margin-right: 20px;
+    margin-left: 0px;
+    padding: 2px 5px;
+    border-radius: 20px;
+    background-color: var(--color-7);
+}
+
+.company {
+    margin-top: 20px;
+}
+
+.company h6 {
+    margin-top: 40px;
+    font-family: var(--font-family-2);
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--color-4);
+}
+
+.company a {
+    text-decoration: none;
+    opacity: 60%;
+    color: var(--color-1);
+    font-family: var(--font-family-2);
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    margin-top: 19px;
+}
+
+.Support h6 {
+    margin-left: 60px;
+}
+
+.Support a {
+    width: 100%;
+    margin-left: 60px;
+}
+
+.stay h6 {
+    margin-left: 60px;
+}
+
+.stay input {
+    outline: none;
+    width: 255px;
+    height: 40px;
+    border-radius: 8px;
+    opacity: 20%;
+    background-color: var(--color-4);
+    margin-top: 20px;
+    margin-left: 60px;
+    padding-left: 10px;
+    border: transparent;
+}
+
+.stay ::placeholder {
+    padding-left: 5px;
+    color: var(--color-5);
+}
+
+.stay i {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -30px;
+    color: var(--color-1);
+}
